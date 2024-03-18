@@ -16,7 +16,7 @@
 }
 
 .btn {
-    background-color: rgb(9, 77, 171);
+    background-color: hsl(240, 82%, 37%);
     color: white;
     margin-right: 3vw;
 
@@ -31,8 +31,8 @@
     display: flex;
     flex-direction: column;
     background: rgb(56, 194, 230);
-    background: linear-gradient(90deg, rgba(56, 194, 230, 1) 22%, rgba(81, 132, 210, 1) 74%);
-    height: 60vh;
+    background: linear-gradient(90deg, rgb(33, 142, 169) 22%, rgb(38, 95, 182) 74%);
+    height: calc(100%-40vh);
 }
 
 .heading,
@@ -55,7 +55,7 @@ h2 {
 }
 
 .search {
-    background-color: rgb(9, 77, 171);
+    background-color: rgb(225, 138, 17);
     color: white;
     margin-right: 1vw;
     padding: 0 3em;
@@ -69,7 +69,7 @@ h2 {
 
 .second {
     background-color: rgb(255, 255, 255);
-    height: 60vh;
+    height: 50%;
 }
 
 h4 {
@@ -84,14 +84,15 @@ h4 {
 .icon-grid{
     display: flex;
     flex-wrap:wrap;
-    gap: 10vw;
+    gap: 5vw;
+    width:40%;
     justify-content: center;
     align-items: center;
-    margin: 4vw 7vw;  
+    margin: 4vw auto  
 
 }
-.skin,.Gynecologist,.Urologist{
-    background: rgb(112, 180, 239);
+.skin,.Gynecologist,.Urologist,.Ent,.Dentist,.Gastro{
+    background: rgb(161, 202, 237);
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -100,5 +101,36 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.Teeth,.ENT,.Uro,.Gyne,.derm,.Gas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.steps{
+
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(219, 231, 241);
+}
+.written{
+    padding-right: 6vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 4vw;
 
 }
