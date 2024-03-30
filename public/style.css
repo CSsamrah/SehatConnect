@@ -221,15 +221,7 @@ footer a:hover {
     justify-content: space-evenly;
     margin-bottom: 4vw;
 }
-.loginform{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vw;
-    height: 100%;
-    width: 100%;
-}
-form{
+#signupForm{
     border-style: solid;
     border-color: rgb(162, 215, 195);
     padding: 1vw 3vw;
@@ -239,16 +231,39 @@ form{
     width: 40%;
     height: 50%;
     background-color: rgb(162, 215, 195);
+    margin: 1vw auto;
     
 }
-form h4{
+#loginForm {
+    border-style: solid;
+    border-color: rgb(162, 215, 195);
+    padding: 1vw 3vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    margin: 0 auto; /* Center the form horizontally */
+    width: 40%;
+    height: 50%;
+    background-color: rgb(162, 215, 195);
+    margin-top: 1vw; /* Add margin-top for spacing */
+}
+
+#signupForm h4{
     text-align: left;
     font-size: 1.3rem;
-    margin: 0;
     padding-bottom: 1vw;
    
 }
-form p{
+#loginForm h4{
+    text-align: left;
+    font-size: 1.3rem;
+    padding-bottom: 1vw;
+   
+}
+#signupForm p{
+    text-align: left;
+    font-size: 0.9rem;
+}
+#loginForm p{
     text-align: left;
     font-size: 0.9rem;
 }
